@@ -1,0 +1,266 @@
+body {
+	background: url("../img/background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+
+	color: #3D2D25;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.contact {
+	width: 380px;
+	border-radius: 8px;
+	margin: 4px;
+	padding: 10px;
+	background: #F4C39D;
+	display: inline-block;
+	float: left;
+	background-color:rgba(244, 195, 157, 0.8);
+}
+
+.contactName {
+	font-size: 16pt;
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+.contactPhone, .contactEmail, .contactWebsite {
+	width: 100%;
+	height: 20px;
+	font-size: 13pt;
+	padding-left: 20px;
+	margin-bottom: 2px;
+}
+
+.contactPhone {
+	background: url("../img/telephone.png") no-repeat;
+}
+
+.contactEmail {
+	background: url("../img/contact_email.png") no-repeat;
+}
+
+.contactWebsite {
+	background: url("../img/world.png") no-repeat;
+	margin-bottom: 10px;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c123de), color-stop(1, #a20dbd));
+	background:-moz-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:-webkit-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:-o-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:-ms-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+	background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c123de', endColorstr='#a20dbd',GradientType=0);
+	background-color:#c123de;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #a511c0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9b14b3;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a20dbd), color-stop(1, #c123de));
+	background:-moz-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:-webkit-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:-o-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:-ms-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+	background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a20dbd', endColorstr='#c123de',GradientType=0);
+	background-color:#a20dbd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+input[type="text"] {
+	/*width: 260px;*/
+	width: 232px;
+	height: 22px;
+	margin-bottom: 10px;
+	margin-top: 3px;
+	border-radius: 5px;
+	/*border: 2px solid #3D2D25;*/
+	border: none;
+	font-size: 12pt;
+	padding: 3px;
+	color: #9b14b3;
+	background: #fff;
+}
+
+input[name="phone"] {
+	background: #fff url("../img/telephone.png") no-repeat 7px 7px;
+	padding-left: 28px;
+}
+
+input[name="email"] {
+	background: #fff url("../img/contact_email.png") no-repeat 7px 7px;
+	padding-left: 28px;
+}
+
+input[name="website"] {
+	background: #fff url("../img/world.png") no-repeat 7px 7px;
+	padding-left: 28px;
+}
+
+input[name="firstname"], input[name="lastname"] {
+	background: #fff url("../img/user.png") no-repeat 7px 7px;
+	padding-left: 28px;
+}
+
+label {
+	font-size: 12pt;
+}
+
+form {
+	padding: 12px;
+	float: left;
+	margin-right: 12px;
+	background: rgba(61,45,37,.9);
+	color: #F1C597;
+	border-radius: 8px;
+}
+
+h3 {
+	font-size: 15pt;
+	margin: 0 0 15px 0;
+	color: #fff;
+	background: url("../img/user_add.png") no-repeat;
+	padding-left: 36px;
+	padding-top: 4px;
+	height: 32px;
+}
+
+h2 {
+	font-size: 18pt;
+	margin: 0;
+	padding: 5px;
+	border-radius: 8px;
+	color: #fff;
+	text-shadow: 2px 2px #3D2D25;
+}
+
+
+h1 {
+	background-color: #3D2D25;
+	color: #fff;
+	margin: 0 0 14px 0;
+	line-height: 50px;
+	text-shadow: 1px 1px #A87B56;
+	padding-left: 10px;
+	font-size: 20pt;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	/*border-bottom: 4px solid #9b14b3;*/
+}
+
+#contactsContainer {
+	float: right;
+	width: 816px;
+	min-height: 800px;
+}
+
+#container {
+	width: 1118px;
+	margin: 0 auto;
+	min-height: 750px;
+	margin-bottom: 10px;
+}
+
+
+input[type="submit"] {
+
+	margin: 0 auto;
+}
+
+
+
+.message {
+	width: 100%;
+	padding: 10px;
+	font-size: 15pt;
+	background: #a20dbd;
+	color: #fff;
+	text-align: center;
+}
+
+a {
+	color: #9b14b3;
+}
+
+
+#footer {
+	background: #3D2D25;
+	color: #F1C597;
+	margin: 14px 0 0 0;
+	line-height: 30px;
+	text-align: center;
+	bottom: 0;
+	display: block;
+	float: left;
+	width: 100%;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+/*
+#h {
+	height: 50px;
+	background: #3D2D25;
+	position: absolute;
+	z-index: -1;
+	border-bottom: 4px solid #9b14b3;
+}*/
+
+.orderbyButton {
+	background: rgba(61,45,37,.6);
+	border-radius: 4px;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-size: 12pt;
+	color: #F1C597;
+	float: right;
+	margin-left: 3px;
+}
+
+.orderbyButton:hover {
+	background: #3D2D25;
+	text-shadow: none;
+}
+
+#footer a {
+	color: #F1C597;
+}
+
+.formButtons {
+	/*border: 1px solid #fff;*/
+	width: 204px;
+	margin: 0 auto;
+}
+
+#viewContainer {
+	float: right;
+	width: 816px;
+	border-radius: 8px;
+	background-color:rgba(244, 195, 157, 0.8);
+	min-height: 700px;
+}
+
+input[name="addClient"] {
+	width: 100%;
+}
